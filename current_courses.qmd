@@ -1,0 +1,15 @@
+---
+title: "Current Courses"
+format: html
+---
+
+<ul>
+    <li><strong>EEN549</strong> - Advanced VLSI Design and Embedded Systems</li>
+    <li><strong>EEN314</strong> - VLSI Systems Design</li>
+    <li><strong>CEI473</strong> - Embedded Systems</li>
+    <li><strong>CEI122</strong> - Digital Logic</li>
+    <li><strong>EEN319</strong> - Control Systems Lab</li>
+    <li><strong>EEN211</strong> - Circuit Analysis II</li>
+    <li><strong>EEN111</strong> - Circuit Analysis I</li>
+    <li><strong>EEN231.E</strong> - Signals and Systems Lab</li>
+</ul>
