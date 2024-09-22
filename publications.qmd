@@ -1,6 +1,0 @@
----
-title: "Publications"
-format: html
-
-include-before-body: pubs.html
----

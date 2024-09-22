@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "current_courses.html",
+    "href": "current_courses.html",
+    "title": "Current Courses",
+    "section": "",
+    "text": "EEN549 - Advanced VLSI Design and Embedded Systems\n\n\nEEN314 - VLSI Systems Design\n\n\nCEI473 - Embedded Systems\n\n\nCEI122 - Digital Logic\n\n\nEEN319 - Control Systems Lab\n\n\nEEN211 - Circuit Analysis II\n\n\nEEN111 - Circuit Analysis I\n\n\nEEN231.E - Signals and Systems Lab"
+  },
+  {
+    "objectID": "contact_info.html",
+    "href": "contact_info.html",
+    "title": "Contact Info",
+    "section": "",
+    "text": "Postal address:  Cyprus University of Technology Department of Electrical and Computer Engineering and InformaticsOffice 420 (Tofis building) Phone:  +357 2500 2166 Fax: +357 2500 2833 e-mail: k.deliparaschos [at] cut [dot] ac [dot] cy"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n\n\n\nPublications\n\n\t\n\t\t\n\t\t\tReset\n\t\t\n\t\t\n\t\t\t\n\t\t\t  Search First Author\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t  Search Author\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t  Search Topic\n\t\t\t  \n\t\t\t  Example Topic\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tExample: journal 2015 (finds the intersection of the two terms)\n\t\t\n\t\n\n\n\n\n\n    \n            \n    \n\n\n\n\n Conferences \n\n\n Refereed Articles \n\n\n Book sections \n\n\n Thesis \n\n\n\n\n    \n        \n        (Top of the page)\n    \n     \n    ,\n    \n        \n    \n\n\n    ,\n    ,\n    In ,\n    ,\n    ,\n    .\n    \n     [bib]"
+  },
+  {
+    "objectID": "past_courses.html",
+    "href": "past_courses.html",
+    "title": "Past Courses",
+    "section": "",
+    "text": "Cyprus University of Technology\n\n\n\nEE311 - Control Systems\n\n\nEE317 - Communication Systems\n\n\n\nNational Technical University of Athens\n\n\n\nControl and Robotics Systems Lab exercises:\n\n\nThree-term (PID) control with analogue circuits\n\n\nServomechanism (ES230) system analysis\n\n\nEmbedded control system (MIDICOM)\n\n\nDesign of control systems in MATLAB\n\n\nAutomatic control of robotic joint\n\n\nClassic robot (Adept) control (disturbance compensation)\n\n\nRobot (Adept) Programming\n\n\nMobile robot (RoboSoft) control\n\n\nRobotic (palletizing) cell (FMS)\n\n\nPendubot control\n\n\nFuzzy inference and control in MATLAB\n\n\n\n\n\nGreenwich University (NYC Athens Campus)\n\n\n\nCOMP1171 - Computer & Communication Systems I\n\n\nCOMP1588 - Computer Systems Architectures\n\n\nCOMP1564 - Systems Programming Technologies\n\n\nCOMP1391 - Systems Development\n\n\nNetworking Technology (HND)\n\n\nDatabase concepts (HND)\n\n\n\nHertfordshire University (IST Athens Campus)\n\n\n\n6COM1012 (3FEN0161) - Computer Network Protocols and Architecture\n\n\n7COM0099 (MFEN0100) - Software Development Tools and Methods"
+  },
+  {
+    "objectID": "professional_service.html",
+    "href": "professional_service.html",
+    "title": "Professional Service",
+    "section": "",
+    "text": "2001 - 2005: INTRACOM Telecom (Athens)\n\n\nMicroelectronics Lab (VLSI), Broadband Systems Department.\n\n\n\n\n2000 - 2001: INTRACOM Telecom (Athens)\n\n\nSoftware Co-Production Department (Ericsson telecommunications center).\n\n\n\n\n1995 - 1996: Great Ormond Street Hospital (London)\n\n\nBiomedical Engineering Department"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Dr Kyriakos Deliparaschos received his Ph.D. degree from the Department of Signals, Control, and Robotics, School of Electrical and Computer Engineering, National Technical University of Athens (NTUA), his M.Sc. degree in Mechatronics from De Montfort University, Leicester, UK, and NTUA, and his B.Eng. Hons degree in Electronics Engineering from De Montfort University. He is Special Teaching Staff at the Department of Electrical Engineering, Computer Engineering, and Informatics. He has been a research fellow with the School of Aerospace, Transport, and Manufacturing (SATM) at Cranfield University and a research associate with NTUA’s Intelligent Robotics and Automation Laboratory (IRAL). He was also a postdoctoral research fellow with the CTVR group at Trinity College, Dublin University, and a research associate with the Robotics, Control, and Decision Systems (RCDS) Lab, part of the Mechanical Engineering and Material Science and Engineering Department of CUT. Additionally, he was a member of the Intelligent Automation Systems research group (IAS) at NTUA. Previously, he served as a Lecturer at the University of Greenwich and the University of Hertfordshire in Athens, and as a Lab Assistant at the School of Electrical and Computer Engineering, NTUA. He worked at the Institute of Communications and Computer Systems (ICCS) and participated in several research programs funded by EPAN, EQUAL, and PENED. Furthermore, he worked for INTRACOM S.A. in the departments of VLSI and Communications Systems, and at Great Ormond Street Hospital, London, in the Biomedical Engineering Department.\nHis work has been published in peer-reviewed international journals, conferences, and book chapters in the areas of robotics, control, and electronics. His main research interests focus on high-performance computing, ASIC/FPGA design, embedded systems and cyber-physical systems, hardware accelerators, mobile robots and robot-assisted surgery, cloud computing, and fault-tolerant control."
+  },
+  {
+    "objectID": "research_interests.html",
+    "href": "research_interests.html",
+    "title": "Research Interests",
+    "section": "",
+    "text": "Embedded systems\nSystem-on-a-Chip (SoC) and FPGA design\nHardware-in-the-loop and digital twins\nSensor fusion and navigation of UAVs and autonomous vehicles\nSurgical robotics applications\nFPGA-based hardware acceleration\nHigh-Level Synthesis (HLS)"
+  }
+]
