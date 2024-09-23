@@ -5,8 +5,8 @@ website:
   title: "Dr Kyriakos Deliparaschos"
   navbar:
     left:
-      - href: about.qmd
-        text: About
+      - text: About
+        href: about.qmd
       - research_interests.qmd
       - publications.qmd
       - text: Teaching

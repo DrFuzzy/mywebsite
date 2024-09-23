@@ -1,1 +1,6 @@
 /* css styles */
+
+html,body,span{
+    font-family: "Helvetica", Times, serif;
+    font-size: 17px;
+}
