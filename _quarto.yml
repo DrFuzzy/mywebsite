@@ -1,6 +1,12 @@
 project:
   type: website
-
+  render:
+    - "about.qmd"
+    - "research_interests.qmd"
+    - "publications.qmd"
+    - "current_courses.qmd"
+    - "past_courses.qmd"
+    - "contact_info.qmd"
 website:
   title: "Dr Kyriakos Deliparaschos"
   navbar:
@@ -22,6 +28,8 @@ format:
     css: styles.css
     toc: true
 
-
+resources:
+    - "/bibtex/publications.bib"
+    - "js/bibtex_js.js"
 
 

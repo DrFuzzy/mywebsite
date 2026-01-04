@@ -1,6 +1,9 @@
 ---
 title: "Publications"
 format: html
+resources:
+    - "bibtex/publications.bib"
+    - "js/bibtex_js.js"
 
 include-before-body: pubs.html
 ---
