@@ -1,33 +1,44 @@
-@inproceedings{kallis_incremental_2017,
-	title = {Incremental {2D} {Delaunay} triangulation core implementation on {FPGA} for surface reconstruction via high-level synthesis},
-	copyright = {All rights reserved},
-	doi = {10.1109/ETFA.2017.8247736},
-	abstract = {This paper presents a 2D Delaunay triangulation core for surface reconstruction implemented on a Field Programmable Gate Array (FPGA) chip. The core implementation is derived using high-level synthesis from a C++ description of an incremental 2D Delaunay triangulation algorithm. This description was modified accordingly so that it can be embedded into a FPGA chip using hardware description language. Goal of this work is to increase the execution speed of the algorithm so as to allow for real-time operation. Towards this end, we performed an optimization process using high level synthesis directives which pipeline regions of the code in order to achieve delay optimization. We show preliminary results using standard benchmark models for surface reconstruction, which show the performance of our design.},
-	booktitle = {22nd {IEEE} {International} {Conference} on {Emerging} {Technologies} and {Factory} {Automation} ({ETFA 2017})},
-	author = {Kallis, C. and Deliparaschos, K. M. and Moustris, G. P. and Georgiou, A. and Charalambous, T.},
-	month = sep,
-	year = {2017},
-	keywords = {Algorithm design and analysis, computer graphics, Delaunay triangulation, Field Programmable Gate Array, Field Programmable Gate Array chip, field programmable gate arrays, Field programmable gate arrays, FPGA chip, Hardware, hardware description language, hardware description languages, Hardware design languages, high level synthesis, high level synthesis directives, high-level synthesis, incremental 2D Delaunay triangulation algorithm, incremental 2D Delaunay triangulation core implementation, mesh generation, pipeline processing, pipelining, RegisterTransfer-Level, surface reconstruction, Surface reconstruction, Surface treatment, Two dimensional displays},
-	pages = {1--4}
-}
-
-@article{moustris_evolution_2011,
-	title = {Evolution of autonomous and semi-autonomous robotic surgical systems: a review of the literature},
-	copyright = {All rights reserved},
-	journal = {The International Journal of Medical Robotics and Computer Assisted Surgery},
-	author = {Moustris, G. P. and Hiridis, S. C. and Deliparaschos, K. M. and Konstantinidis, KM},
-	year = {2011}
-}
-
-@inproceedings{konstantinidis_autonomous_2009,
-    address = {Quebec, Canada},
-    title = {Autonomous Movements of {DaVinci} Instruments Using Programmable Robotic Servos},
+% ------- 1999 --------
+@thesis{deliparaschos_implementation_1999,
+    address = {Athens, Greece},
+    type = {Master's {Thesis}},
+    title = {Implementation and Testing of Variable-Time-Delays-Robust Telemanipulation through Master State Prediction},
     copyright = {All rights reserved},
-    booktitle = {4th {Int}. {Congress} of the {Minimally} {Invasive} {Robotic} {Association} ({MIRA} 2009)},
-    author = {Konstantinidis, K. and Hiridis, S. and Deliparaschos, K. M and Moustris, G.P.},
-    year = {2009}
+    school = {De Montfort University and National Technical University of Athens},
+    author = {K. M. Deliparaschos},
+    month = sep,
+    year = {1999}
 }
 
+% ------- 1998 --------
+@thesis{deliparaschos_digit-serial_1998,
+    address = {Leicester, UK},
+    type = {Bachelor's {Thesis}},
+    title = {Digit-{Serial} {IIR} {Filter} {Implementation} on {FPGA}},
+    copyright = {All rights reserved},
+    school = {De Montfort University},
+    author = {K. M. Deliparaschos},
+    month = jun,
+    year = {1998},
+}
+
+% ------- 2005 --------
+@inproceedings{deliparaschos_fast_2005,
+    address = {Catania, Sicily},
+    title = {A fast digital fuzzy logic controller: {FPGA} design and implementation},
+    volume = {1},
+    copyright = {All rights reserved},
+    shorttitle = {A fast digital fuzzy logic controller},
+    abstract = {This paper describes an improved approach to design a Takagi-Sugeno zero-order type fast parameterized digital fuzzy logic controller (DFLC) processing only the active rules (rules that give a non-null contribution for a given input data set), at high frequency of operation, without significant increase in hardware complexity. To achieve this goal, an improved method of designing the fuzzy controller model is proposed that significantly reduces the time required to process the active rules and effectively increases the input data processing rate. The DFLC discussed in this paper achieves an internal core processing speed of at least 200 MHz, featuring two 8-bit inputs and one 12-bit output, with up to seven trapezoidal shape membership functions per input and a rule base of up to 49 rules. The proposed architecture was implemented in a field programmable gate array (FPGA) chip with the use of a very high-speed integrated-circuits hardware-description-language (VHDL) and advanced synthesis and place and route tools},
+    booktitle = {10th {IEEE} {Conf}. on {Emerging} {Technologies} and {Factory} {Automation} ({IEEE} {ETFA} 2005)},
+    author = {K. M. Deliparaschos and Nenedakis, F. I. and Tzafestas, S. G.},
+    month = sep,
+    year = {2005},
+    keywords = {controllers, data processing, DFLC, digital fuzzy logic controller, field programmable gate array chip, field programmable gate arrays, Field programmable gate arrays, FPGA design, fuzzy control, fuzzy logic, hardware description languages, hardware-description-language, logic design, trapezoidal shape membership function, very high speed integrated circuits, very high-speed integrated-circuit, VHDL},
+    pages = {259--262}
+}
+
+% ------- 2006 --------
 @incollection{deliparaschos_parameterized_2006,
     edition = {1st},
     title = {A parameterized {T}-{S} digital fuzzy logic processor: {Soft} core {VLSI} design and {FPGA} implementation},
@@ -53,103 +64,6 @@
     pages = {7--15}
 }
 
-@inproceedings{deliparaschos_reduced_2014,
-  author={Deliparaschos, Kyriakos M. and Charalambous, Themistoklis and Christodoulides, Paul and Klerides, Evelina},
-  booktitle={2014 6th International Symposium on Communications, Control and Signal Processing (ISCCSP)}, 
-  title={Reduced power expenditure in the minimum latency transmission scheduling problem}, 
-  year={2014},
-  volume={},
-  number={},
-  pages={206-209},
-  abstract={In large networks due to the large number of transmissions it is unlikely that a slot will be used only by a single wireless node. In this paper, a Cutting Plane approach is proposed in order to combine the minimum latency transmission scheduling problem with power expenditure minimization. The problem is partitioned into a Master Problem and a Subproblem; the main objective of the Subproblem is to minimize the total power expenditure. The Cutting Plane algorithm used is evaluated with regard to its performance and the outcome is that the power expenditure is reduced significantly, while achieving the minimum latency transmission scheduling. One of the drawbacks of the proposed approach, however, is the fact that although it reduces the power significantly, the computational time required is quite large, pointing to further research towards that direction.},
-  keywords={},
-  doi={10.1109/ISCCSP.2014.6877851},
-  ISSN={},
-  month=May,
-  year = {2014}
-}
-
-@article{michail_ai-based_2015,
-	title = {{AI}-Based Actuator/Sensor Fault Detection With Low Computational Cost for Industrial Applications},
-	volume = {PP},
-	copyright = {All rights reserved},
-	issn = {1063-6536},
-	doi = {10.1109/TCST.2015.2422794},
-	abstract = {A low computational cost method is proposed for detecting actuator/sensor faults. Typical model-based fault detection (FD) units for multiple sensor faults require a bank of estimators [i.e., conventional Kalman estimators or artificial intelligence (AI)-based ones]. The proposed FD scheme uses an AI approach for developing of a low computational power FD unit abbreviated as iFD. In contrast to the bank-of-estimators approach, the proposed iFD unit employs a single estimator for multiple actuator/sensor FD. The efficacy of the proposed FD scheme is illustrated through a rigorous analysis of the results for a number of sensor fault scenarios on an electromagnetic suspension system.},
-	number = {99},
-	journal = {IEEE Transactions on Control Systems Technology},
-	author = {K. Michail and K. M. Deliparaschos and Tzafestas, S.G. and Zolotas, A.C.},
-	year = {2015},
-	keywords = {Actuator/sensor fault detection (FD), artificial intelligence (AI), electromagnetic suspension (EMS), fault tolerant control (FTC), loop-shaping robust control design, maglev trains, neural networks (NNs), reconfigurable control.},
-	pages = {1--1}
-}
-
-@inproceedings{deliparaschos_fast_2005,
-    address = {Catania, Sicily},
-    title = {A fast digital fuzzy logic controller: {FPGA} design and implementation},
-    volume = {1},
-    copyright = {All rights reserved},
-    shorttitle = {A fast digital fuzzy logic controller},
-    abstract = {This paper describes an improved approach to design a Takagi-Sugeno zero-order type fast parameterized digital fuzzy logic controller (DFLC) processing only the active rules (rules that give a non-null contribution for a given input data set), at high frequency of operation, without significant increase in hardware complexity. To achieve this goal, an improved method of designing the fuzzy controller model is proposed that significantly reduces the time required to process the active rules and effectively increases the input data processing rate. The DFLC discussed in this paper achieves an internal core processing speed of at least 200 MHz, featuring two 8-bit inputs and one 12-bit output, with up to seven trapezoidal shape membership functions per input and a rule base of up to 49 rules. The proposed architecture was implemented in a field programmable gate array (FPGA) chip with the use of a very high-speed integrated-circuits hardware-description-language (VHDL) and advanced synthesis and place and route tools},
-    booktitle = {10th {IEEE} {Conf}. on {Emerging} {Technologies} and {Factory} {Automation} ({IEEE} {ETFA} 2005)},
-    author = {K. M. Deliparaschos and Nenedakis, F. I. and Tzafestas, S. G.},
-    month = sep,
-    year = {2005},
-    keywords = {controllers, data processing, DFLC, digital fuzzy logic controller, field programmable gate array chip, field programmable gate arrays, Field programmable gate arrays, FPGA design, fuzzy control, fuzzy logic, hardware description languages, hardware-description-language, logic design, trapezoidal shape membership function, very high speed integrated circuits, very high-speed integrated-circuit, VHDL},
-    pages = {259--262}
-}
-
-@inproceedings{deliparaschos_parameterized_2007,
-	address = {Angers, France},
-	title = {A parameterized genetic algorithm {ip} core design and implementation.},
-	copyright = {All rights reserved},
-	isbn = {978-972-8865-82-5},
-	abstract = {Genetic Algorithm (GA) is a directed random search technique working on a population of solutions and based on natural selection. However, its convergence to the optimum may be very slow for complex optimization problems, especially when the GA is software implemented, making it difficult to be used in real time applications. In this paper a parameterized GA IP is designed and implemented on hardware, achieving impressive time–speedups when compared to its software version. The parameterization stands for the number of population individuals and their bit resolution, the bit resolution of each individual's fitness, the number of elite genes in each generation, the crossover and mutation methods, the maximum number of generations, the mutation probability and its bit resolution. The proposed architecture is implemented in a field programmable gate array chip (FPGA) with the use of a very high-speed integrated circuits hardware description language (VHDL) and advanced synthesis and place and route tools. The GA discussed in this work achieves a frequency rate of 92 MHz and is evaluated using the Traveling Salesman Problem as well as several benchmarking functions.},
-	booktitle = {Int. {Conf}. on {Informatics} in {Control}, {Automation} and {Robot} ({ICINCO} 2007)},
-	author = {K. M. Deliparaschos and Doyamis, G. C. and Tzafestas, S. G.},
-	month = may,
-	year = {2007},
-	keywords = {dblp},
-	pages = {417--423}
-}
-
-@article{deliparaschos_parameterised_2008,
-    title = {A parameterised genetic algorithm {IP} - core: {FPGA} - design, implementation and performance evaluation},
-    volume = {95},
-    copyright = {All rights reserved},
-    issn = {0020-7217},
-    shorttitle = {A parameterised genetic algorithm {IP} - core},
-    doi = {10.1080/00207210802387494},
-    number = {11},
-    journal = {International Journal of Electronics},
-    author = {K. M. Deliparaschos and Doyamis, G. C. and Tzafestas, S. G.},
-    year = {2008},
-    pages = {1149}
-}
-
-@article{charalambous_minimum_2013,
-	title = {On the minimum latency transmission scheduling in wireless networks with power control under {SINR} constraints},
-	copyright = {All rights reserved},
-	issn = {2161-3915},
-	doi = {10.1002/ett.2616},
-    abstract = {In order to alleviate interference and contention in a wireless network, we may exploit the existence of multiple orthogonal channels or time slots, thus achieving a substantial improvement in performance. In this paper, we study a joint transmission scheduling and power control problem that arises in wireless networks. The goal is to assign channels (or time slots) and transmitting powers to communication links such that all communication requests are processed correctly, specified quality-of-service requirements are met, and the number of required time slots is minimised. First, we formulate the problem as a mixed-integer linear programming. Then, we show that the problem considered is non-deterministic polynomial-time hard, and subsequently, we propose non-trivial bounding techniques to solve it. Optimisation methods are also discussed, including a column generation approach, specifically designed to find bounds for the transmission scheduling problem. Moreover, we develop optimisation techniques in which the bounding techniques are integrated in order to derive the optimal solution to the problem faster. We close with an extensive computational study, which shows that despite the complexity of the problem, the proposed methodology scales to problems of non-trivial size. Our algorithms can therefore be used for static wireless networks where propagation conditions are almost constant and a centralised agent is available (e.g. cellular networks where the base station can act as a centralised agent or wireless mesh networks), and they can also serve as a benchmark for the performance evaluation of heuristic, approximation or distributed algorithms that aim to find near-optimal solutions without information about the whole network.},
-	journal = {Transactions on Emerging Telecommunications Technologies},
-	author = {Charalambous, T. and Klerides, E. and Wiesemann, W. and Vassiliou, A. and Hadjitheophanous, S. and K. M. Deliparaschos},
-	year = {2013}
-}
-
-@incollection{moustris_feedback_2011,
-	edition = {Edited by: Dr. Andon Venelinov Topalov},
-	title = {Feedback equivalence and control of mobile robots through a scalabe {FPGA} architecture},
-	copyright = {All rights reserved},
-	isbn = {ISBN 978-953-307-909-7},
-	booktitle = {Recent {Advances} in {Mobile} {Robotics}},
-	publisher = {InTech},
-	author = {Moustris, G.P. and K. M. Deliparaschos and Tzafestas, S.G.},
-	year = {2011},
-	pages = {401--427}
-}
-
 @article{deliparaschos_design_2006,
 	title = {Design and {Implementation} of a {Fast} {Digital} {Fuzzy} {Logic} {Controller} {Using} {FPGA} {Technology}},
 	volume = {45},
@@ -166,18 +80,92 @@
 	pages = {77--96}
 }
 
-@inproceedings{deliparaschos_model-based_2015,
-	address = {Toremolinos, Spain},
-	title = {A model-based embedded control hardware/software co-design approach for optimized sensor selection of industrial systems},
+% ------- 2007 --------
+@inproceedings{deliparaschos_autonomous_2007,
+  author={Deliparaschos, Kyriakos M. and Moustris, George P. and Tzafestas, Spyros G.},
+  booktitle={2007 European Control Conference (ECC)}, 
+  title={Autonomous {SoC} for fuzzy robot path tracking}, 
+  year={2007},
+  volume={},
+  number={},
+  pages={5471-5478},
+  abstract={In this paper a System-on-a-Chip (SoC) for the path following task of autonomous non-holonomic mobile robots is presented. The SoC consists of a digital fuzzy logic processor and a flow control program that runs under the Xilinx Microblaze™ soft processor core. The fuzzy processor implements a fuzzy path tracking algorithm introduced by the authors. The system was tied to an actual P3-DX8 robot and field experiments have been performed in order to assess the overall performance. Quantization problems and limitations imposed by the system configuration are also discussed.},
+  keywords={},
+  doi={10.23919/ECC.2007.7068806},
+  ISSN={},
+  month=Jul
+}
+
+@inproceedings{deliparaschos_parameterized_2007,
+	address = {Angers, France},
+	title = {A parameterized genetic algorithm {ip} core design and implementation.},
 	copyright = {All rights reserved},
-	doi = {10.1109/MED.2015.7158858},
-	abstract = {In this work, a Field Programmable Gate Array (FPGA)-based embedded software platform coupled with a software-based plant, forming a Hardware-In-the-Loop (HIL), is used to validate a systematic sensor selection framework. The systematic sensor selection framework combines multi-objective optimization, Linear-Quadratic-Gaussian (LQG) control, and the nonlinear model of a maglev suspension. The physical process that represents the suspension plant is realized in a high-level system modeling environment, while the LQG controller is implemented on an FPGA. FPGAs allow to rapidly evaluate algorithms and test designs under real-world scenarios avoiding heavy time penalty associated with Hardware Description Language (HDL) simulators. Moreover, the HIL technique implemented shows a significant speed-up in the required execution time when compared to the software-based model.},
-	booktitle = {23th {Mediterranean} {Conference} on {Control} and {Automation} ({MED 2015})},
-	author = {K. M. Deliparaschos and Michail, K. and Tzafestas, S.G. and Zolotas, A.C.},
-	month = jun,
-	year = {2015},
-	keywords = {Analytical models, control engineering computing, Control systems, Control Systems, electromagnetic suspension, embedded control, embedded systems, field programmable gate array-based embedded software platform, field programmable gate arrays, Field programmable gate arrays, FPGA, FPGA design, FPGA-In-the-Loop, hardware description language simulators, hardware description languages, Hardware design languages, hardware-in-the-loop, hardware-software codesign, HDL, high-level system modeling environment, HIL, HIL technique, industrial systems, linear quadratic Gaussian control, linear-quadratic-Gaussian control, LQG, maglev, Maglev, maglev suspension, magnetic levitation, Magnetic Levitation, magnetic variables control, Mathematical model, MATLAB, model-based embedded control hardware-software codesign approach, multiobjective optimization, nonlinear model, observer-based controller, optimisation, optimized sensor selection, sensor selection, Sensor selection, software-based model, suspension plant, systematic sensor selection framework},
-	pages = {889--894}
+	isbn = {978-972-8865-82-5},
+	abstract = {Genetic Algorithm (GA) is a directed random search technique working on a population of solutions and based on natural selection. However, its convergence to the optimum may be very slow for complex optimization problems, especially when the GA is software implemented, making it difficult to be used in real time applications. In this paper a parameterized GA IP is designed and implemented on hardware, achieving impressive time–speedups when compared to its software version. The parameterization stands for the number of population individuals and their bit resolution, the bit resolution of each individual's fitness, the number of elite genes in each generation, the crossover and mutation methods, the maximum number of generations, the mutation probability and its bit resolution. The proposed architecture is implemented in a field programmable gate array chip (FPGA) with the use of a very high-speed integrated circuits hardware description language (VHDL) and advanced synthesis and place and route tools. The GA discussed in this work achieves a frequency rate of 92 MHz and is evaluated using the Traveling Salesman Problem as well as several benchmarking functions.},
+	booktitle = {Int. {Conf}. on {Informatics} in {Control}, {Automation} and {Robot} ({ICINCO} 2007)},
+	author = {K. M. Deliparaschos and Doyamis, G. C. and Tzafestas, S. G.},
+	month = may,
+	year = {2007},
+	keywords = {dblp},
+	pages = {417--423}
+}
+
+% ------- 2008 --------
+@article{deliparaschos_parameterised_2008,
+    title = {A parameterised genetic algorithm {IP} - core: {FPGA} - design, implementation and performance evaluation},
+    volume = {95},
+    copyright = {All rights reserved},
+    issn = {0020-7217},
+    shorttitle = {A parameterised genetic algorithm {IP} - core},
+    doi = {10.1080/00207210802387494},
+    number = {11},
+    journal = {International Journal of Electronics},
+    author = {K. M. Deliparaschos and Doyamis, G. C. and Tzafestas, S. G.},
+    year = {2008},
+    pages = {1149}
+}
+
+% ------- 2009 --------
+@inproceedings{moustris_tracking_2009,
+    address = {Budapest, Hungary},
+    title = {Tracking control using the strip-wise affine transformation: {An} experimental {SoC} design},
+    copyright = {All rights reserved},
+    abstract = {This paper presents the analysis and application of the strip-wise affine map to the path following task for autonomous non-holonomic mobile robots. The mapping was implemented on a Spartan 3-1500 FPGA board with the use of VHDL and advanced EDA tools and was used in field experiments on a Khepera II differential robot. A fully parameterized DFLC previously published by the author has been tailored accordingly for the needs of this design implementation. Experiments were performed using a calibrated camera and a video tracking algorithm in order to extract the actual robot's path, compare it to the odometry solution and analyze the tracker's performance.},
+    booktitle = {European {Control} {Conf}. ({ECC} 2009)},
+    author = {Moustris, G. and K. M. Deliparaschos},
+    month = aug,
+    year = {2009}
+}
+
+@inproceedings{konstantinidis_autonomous_2009,
+    address = {Quebec, Canada},
+    title = {Autonomous Movements of {DaVinci} Instruments Using Programmable Robotic Servos},
+    copyright = {All rights reserved},
+    booktitle = {4th {Int}. {Congress} of the {Minimally} {Invasive} {Robotic} {Association} ({MIRA} 2009)},
+    author = {Konstantinidis, K. and Hiridis, S. and Deliparaschos, K. M and Moustris, G.P.},
+    year = {2009}
+}
+
+@inproceedings{deliparaschos_design_2009,
+	address = {Patras, Greece},
+	title = {Design paradigms of intelligent control systems on a chip},
+	copyright = {All rights reserved},
+	booktitle = {Panhellenic {Conf}. on {Electronics} \& {Telecommunications} ({PACET} 2009)},
+	author = {K. M. Deliparaschos and Tzafestas, S. G.},
+	month = mar,
+	year = {2009}
+}
+
+% ------- 2010 --------
+@phdthesis{deliparaschos_architecture_2010,
+	address = {Athens, Greece},
+	type = {Doctoral {Thesis}},
+	title = {Architecture Design, Implementation and Application of Intelligent Control Algorithms in Digital {VLSI} Systems},
+	copyright = {All rights reserved},
+	school = {National Technical University of Athens},
+	author = {K. M. Deliparaschos},
+	month = apr,
+	year = {2010}
 }
 
 @article{tzafestas_fuzzy_2010,
@@ -197,6 +185,70 @@
     pages = {1017--1027}
 }
 
+% ------- 2011 --------
+@article{moustris_evolution_2011,
+	title = {Evolution of autonomous and semi-autonomous robotic surgical systems: a review of the literature},
+	copyright = {All rights reserved},
+	journal = {The International Journal of Medical Robotics and Computer Assisted Surgery},
+	author = {Moustris, G. P. and Hiridis, S. C. and Deliparaschos, K. M. and Konstantinidis, KM},
+	year = {2011}
+}
+
+@incollection{moustris_feedback_2011,
+	edition = {Edited by: Dr. Andon Venelinov Topalov},
+	title = {Feedback equivalence and control of mobile robots through a scalabe {FPGA} architecture},
+	copyright = {All rights reserved},
+	isbn = {ISBN 978-953-307-909-7},
+	booktitle = {Recent {Advances} in {Mobile} {Robotics}},
+	publisher = {InTech},
+	author = {Moustris, G.P. and K. M. Deliparaschos and Tzafestas, S.G.},
+	year = {2011},
+	pages = {401--427}
+}
+
+% ------- 2012 --------
+@inproceedings{michail_sensor_2012,
+    title = {Sensor fault detection with low computational cost: {A} proposed neural network-based control scheme},
+    copyright = {All rights reserved},
+    shorttitle = {Sensor fault detection with low computational cost},
+    doi = {10.1109/ETFA.2012.6489628},
+    abstract = {The paper describes a low computational power method for detecting sensor faults. A typical fault detection unit for multiple sensor fault detection with modelbased approaches, requires a bank of estimators. The estimators can be either observer or artificial intelligence based. The proposed control scheme uses an artificial intelligence approach for the development of the fault detection unit abbreviated as `i-FD'. In contrast with the bank-estimators approach the proposed i-FD unit is using only one estimator for multiple sensor fault detection. The efficacy of the scheme is tested on an Electro-Magnetic Suspension (EMS) system and compared with a bank of Kalman estimators in simulation environment.},
+    booktitle = {Proceedings of 2012 {IEEE} 17th {International} {Conference} on {Emerging} {Technologies} {Factory} {Automation} ({ETFA} 2012)},
+    author = {Michail, Konstantinos and K. M. Deliparaschos},
+    month = sep,
+    year = {2012},
+    note = {ISSN: 1946-0759},
+    keywords = {artificial intelligence, artificial intelligence approach, artificial intelligence based estimator, bank-estimators approach, computational cost, electromagnetic devices, electromagnetic suspension system, EMS system, fault diagnosis, i-FD, Kalman estimator, Kalman filters, low computational power method, magnetic levitation, multiple sensor fault detection, neural network-based control, neurocontrollers, observer based estimator, simulation environment},
+    pages = {1--6}
+}
+
+% ------- 2013 --------
+@inproceedings{michail_k._-based_2013,
+  author={Michail, Konstantinos and Deliparaschos, Kyriakos M. and Tzafestas, Spyros G. and Zolotas, Argyrios C.},
+  booktitle={21st Mediterranean Conference on Control and Automation}, 
+  title={{AI}-based low computational power actuator/sensor fault detection applied on a MAGLEV suspension}, 
+  year={2013},
+  volume={},
+  number={},
+  pages={1127-1132},
+  abstract={A low computational power method is proposed for detecting actuators/sensors faults. Typical model-based fault detection units for multiple sensor faults, require a bank of observers (these can be either conventional observers of artificial intelligence based). The proposed control scheme uses an artificial intelligence approach for the development of the fault detection unit abbreviated as `iFD'. In contrast with the bank-of-estimators approach, the proposed iFD unit employs a single estimator for multiple sensor fault detection. The efficacy of the scheme is illustrated on an Electromagnetic Suspension system example with a number of sensor fault scenaria.},
+  keywords={},
+  doi={10.1109/MED.2013.6608862},
+  ISSN={},
+  month=Jun
+}
+
+@article{charalambous_minimum_2013,
+	title = {On the minimum latency transmission scheduling in wireless networks with power control under {SINR} constraints},
+	copyright = {All rights reserved},
+	issn = {2161-3915},
+	doi = {10.1002/ett.2616},
+    abstract = {In order to alleviate interference and contention in a wireless network, we may exploit the existence of multiple orthogonal channels or time slots, thus achieving a substantial improvement in performance. In this paper, we study a joint transmission scheduling and power control problem that arises in wireless networks. The goal is to assign channels (or time slots) and transmitting powers to communication links such that all communication requests are processed correctly, specified quality-of-service requirements are met, and the number of required time slots is minimised. First, we formulate the problem as a mixed-integer linear programming. Then, we show that the problem considered is non-deterministic polynomial-time hard, and subsequently, we propose non-trivial bounding techniques to solve it. Optimisation methods are also discussed, including a column generation approach, specifically designed to find bounds for the transmission scheduling problem. Moreover, we develop optimisation techniques in which the bounding techniques are integrated in order to derive the optimal solution to the problem faster. We close with an extensive computational study, which shows that despite the complexity of the problem, the proposed methodology scales to problems of non-trivial size. Our algorithms can therefore be used for static wireless networks where propagation conditions are almost constant and a centralised agent is available (e.g. cellular networks where the base station can act as a centralised agent or wireless mesh networks), and they can also serve as a benchmark for the performance evaluation of heuristic, approximation or distributed algorithms that aim to find near-optimal solutions without information about the whole network.},
+	journal = {Transactions on Emerging Telecommunications Technologies},
+	author = {Charalambous, T. and Klerides, E. and Wiesemann, W. and Vassiliou, A. and Hadjitheophanous, S. and K. M. Deliparaschos},
+	year = {2013}
+}
+
 @inproceedings{deliparaschos_optimised_2013,
   author={Deliparaschos, Kyriakos M. and Michail, Konstantinos and Tzafestas, Spyros G. and Zolotas, Argyrios C.},
   booktitle={2013 Conference on Control and Fault-Tolerant Systems (SysTol)}, 
@@ -210,6 +262,67 @@
   doi={10.1109/SysTol.2013.6693852},
   ISSN={2162-1209},
   month=Oct
+}
+
+% ------- 2014 --------
+@inproceedings{deliparaschos_reduced_2014,
+  author={Deliparaschos, Kyriakos M. and Charalambous, Themistoklis and Christodoulides, Paul and Klerides, Evelina},
+  booktitle={2014 6th International Symposium on Communications, Control and Signal Processing (ISCCSP)}, 
+  title={Reduced power expenditure in the minimum latency transmission scheduling problem}, 
+  year={2014},
+  volume={},
+  number={},
+  pages={206-209},
+  abstract={In large networks due to the large number of transmissions it is unlikely that a slot will be used only by a single wireless node. In this paper, a Cutting Plane approach is proposed in order to combine the minimum latency transmission scheduling problem with power expenditure minimization. The problem is partitioned into a Master Problem and a Subproblem; the main objective of the Subproblem is to minimize the total power expenditure. The Cutting Plane algorithm used is evaluated with regard to its performance and the outcome is that the power expenditure is reduced significantly, while achieving the minimum latency transmission scheduling. One of the drawbacks of the proposed approach, however, is the fact that although it reduces the power significantly, the computational time required is quite large, pointing to further research towards that direction.},
+  keywords={},
+  doi={10.1109/ISCCSP.2014.6877851},
+  ISSN={},
+  month=May,
+  year = {2014}
+}
+
+% ------- 2015 --------
+@inproceedings{deliparaschos_model-based_2015,
+	address = {Toremolinos, Spain},
+	title = {A model-based embedded control hardware/software co-design approach for optimized sensor selection of industrial systems},
+	copyright = {All rights reserved},
+	doi = {10.1109/MED.2015.7158858},
+	abstract = {In this work, a Field Programmable Gate Array (FPGA)-based embedded software platform coupled with a software-based plant, forming a Hardware-In-the-Loop (HIL), is used to validate a systematic sensor selection framework. The systematic sensor selection framework combines multi-objective optimization, Linear-Quadratic-Gaussian (LQG) control, and the nonlinear model of a maglev suspension. The physical process that represents the suspension plant is realized in a high-level system modeling environment, while the LQG controller is implemented on an FPGA. FPGAs allow to rapidly evaluate algorithms and test designs under real-world scenarios avoiding heavy time penalty associated with Hardware Description Language (HDL) simulators. Moreover, the HIL technique implemented shows a significant speed-up in the required execution time when compared to the software-based model.},
+	booktitle = {23th {Mediterranean} {Conference} on {Control} and {Automation} ({MED 2015})},
+	author = {K. M. Deliparaschos and Michail, K. and Tzafestas, S.G. and Zolotas, A.C.},
+	month = jun,
+	year = {2015},
+	keywords = {Analytical models, control engineering computing, Control systems, Control Systems, electromagnetic suspension, embedded control, embedded systems, field programmable gate array-based embedded software platform, field programmable gate arrays, Field programmable gate arrays, FPGA, FPGA design, FPGA-In-the-Loop, hardware description language simulators, hardware description languages, Hardware design languages, hardware-in-the-loop, hardware-software codesign, HDL, high-level system modeling environment, HIL, HIL technique, industrial systems, linear quadratic Gaussian control, linear-quadratic-Gaussian control, LQG, maglev, Maglev, maglev suspension, magnetic levitation, Magnetic Levitation, magnetic variables control, Mathematical model, MATLAB, model-based embedded control hardware-software codesign approach, multiobjective optimization, nonlinear model, observer-based controller, optimisation, optimized sensor selection, sensor selection, Sensor selection, software-based model, suspension plant, systematic sensor selection framework},
+	pages = {889--894}
+}
+
+@article{michail_ai-based_2015,
+	title = {{AI}-Based Actuator/Sensor Fault Detection With Low Computational Cost for Industrial Applications},
+	volume = {PP},
+	copyright = {All rights reserved},
+	issn = {1063-6536},
+	doi = {10.1109/TCST.2015.2422794},
+	abstract = {A low computational cost method is proposed for detecting actuator/sensor faults. Typical model-based fault detection (FD) units for multiple sensor faults require a bank of estimators [i.e., conventional Kalman estimators or artificial intelligence (AI)-based ones]. The proposed FD scheme uses an AI approach for developing of a low computational power FD unit abbreviated as iFD. In contrast to the bank-of-estimators approach, the proposed iFD unit employs a single estimator for multiple actuator/sensor FD. The efficacy of the proposed FD scheme is illustrated through a rigorous analysis of the results for a number of sensor fault scenarios on an electromagnetic suspension system.},
+	number = {99},
+	journal = {IEEE Transactions on Control Systems Technology},
+	author = {K. Michail and K. M. Deliparaschos and Tzafestas, S.G. and Zolotas, A.C.},
+	year = {2015},
+	keywords = {Actuator/sensor fault detection (FD), artificial intelligence (AI), electromagnetic suspension (EMS), fault tolerant control (FTC), loop-shaping robust control design, maglev trains, neural networks (NNs), reconfigurable control.},
+	pages = {1--1}
+}
+
+% ------- 2016 --------
+@inproceedings{deliparaschos_use_2016,
+	title = {On the use of fuzzy logic controllers to comply with virtualized application demands in the cloud},
+	copyright = {All rights reserved},
+	doi = {10.1109/ECC.2016.7810362},
+	abstract = {As virtualization technologies enable real-time CPU allocation, it is important to build controllers that adjust the allocation in a timely fashion avoiding resource saturation and hence, dissatisfaction of the end users of services. In this work, adaptive neuro-fuzzy inference, trained on Kalman and H∞ filters, has been used to adjust the CPU allocations based on observations of past utilization. When evaluating the performance of the proposed controller it is demonstrated that it provides even better performance than the filters it is trained on. In addition, there are no assumptions on the noise characteristics and due to the fact that the neuro-fuzzy controller can, in general, capture non-linear level processes, our controller is more robust than linear model based approaches, such as the Kalman and the H∞ filters.},
+	booktitle = {{European} {Control} {Conference} ({ECC 2016})},
+	author = {K. M. Deliparaschos and Charalambous, Themistoklis and Kalyvianaki, Evangelia and Makarounas, Christos},
+	month = jun,
+	year = {2016},
+	keywords = {adaptive control, adaptive neuro-fuzzy inference, cloud, cloud computing, Computational modeling, control engineering computing, fuzzy control, Fuzzy logic, fuzzy logic controllers, Fuzzy sets, H∞ control, H∞ filter, Kalman filter, Kalman filters, microprocessor chips, neurocontrollers, nonlinear control systems, nonlinear level processes, real-time CPU allocation, resource allocation, Resource management, robust control, robust controller, Servers, Time factors, virtualized application demands},
+	pages = {649--654}
 }
 
 @article{deliparaschos_fpgabased_2016,
@@ -226,6 +339,21 @@
     year = {2016}
 }
 
+% ------- 2017 --------
+@inproceedings{makridis_dynamic_2017,
+	title = {Dynamic {CPU} resource provisioning in virtualized servers using maximum correntropy criterion {Kalman} filters},
+	copyright = {All rights reserved},
+	doi = {10.1109/ETFA.2017.8247677},
+	abstract = {Virtualized servers have been the key for the efficient deployment of cloud applications. As the application demand increases, it is important to dynamically adjust the CPU allocation of each component in order to save resources for other applications and keep performance high, e.g., the client mean response time (mRT) should be kept below a Quality of Service (QoS) target. In this work, a new form of Kalman filter, called the Maximum Correntropy Criterion Kalman Filter (MCC-KF), has been used in order to predict, and hence, adjust the CPU allocations of each component while the RUBiS auction site workload changes randomly as the number of clients varies. MCC-KF has shown high performance when the noise is non-Gaussian, as it is the case in the CPU usage. Numerical evaluations compare our designed framework with other current state-of-the-art using real-data via the RUBiS benchmark website deployed on a prototype Xen-virtualized cluster.},
+	booktitle = {22nd {IEEE} {International} {Conference} on {Emerging} {Technologies} and {Factory} {Automation} ({ETFA 2017})},
+	author = {Makridis, Evagoras and K. M. Deliparaschos and Kalyvianaki, Evangelia and Charalambous, Themistoklis},
+	month = sep,
+	year = {2017},
+	note = {ISSN: 1946-0759},
+	keywords = {client mean response time, cloud application efficient deployment, cloud computing, Cloud computing, CPU allocation, CPU usage, dynamic CPU resource provisioning, Dynamic scheduling, file servers, Kalman filter, Kalman filters, maximum correntropy criterion Kalman filter, maximum correntropy criterion Kalman filters, MCC-KF, mRT, nonGaussian noise, prototype Xen-virtualized cluster, QoS target, quality of service, quality of service target, resource allocation, Resource management, Resource provisioning, Robustness, RUBiS, RUBiS auction site workload, Servers, service target, Time factors, virtual machines, virtualisation, virtualized servers},
+	pages = {1--8}
+}
+
 @inproceedings{deliparaschos_issue_2017,
 	title = {On the issue of {LQG} embedded control realization in a {Maglev} system},
 	copyright = {All rights reserved},
@@ -238,88 +366,32 @@
 	pages = {1379--1384}
 }
 
-@inproceedings{michail_k._-based_2013,
-  author={Michail, Konstantinos and Deliparaschos, Kyriakos M. and Tzafestas, Spyros G. and Zolotas, Argyrios C.},
-  booktitle={21st Mediterranean Conference on Control and Automation}, 
-  title={{AI}-based low computational power actuator/sensor fault detection applied on a MAGLEV suspension}, 
-  year={2013},
-  volume={},
-  number={},
-  pages={1127-1132},
-  abstract={A low computational power method is proposed for detecting actuators/sensors faults. Typical model-based fault detection units for multiple sensor faults, require a bank of observers (these can be either conventional observers of artificial intelligence based). The proposed control scheme uses an artificial intelligence approach for the development of the fault detection unit abbreviated as `iFD'. In contrast with the bank-of-estimators approach, the proposed iFD unit employs a single estimator for multiple sensor fault detection. The efficacy of the scheme is illustrated on an Electromagnetic Suspension system example with a number of sensor fault scenaria.},
-  keywords={},
-  doi={10.1109/MED.2013.6608862},
-  ISSN={},
-  month=Jun
-}
-
-@phdthesis{deliparaschos_architecture_2010,
-	address = {Athens, Greece},
-	type = {Doctoral {Thesis}},
-	title = {Architecture Design, Implementation and Application of Intelligent Control Algorithms in Digital {VLSI} Systems},
+@inproceedings{kallis_incremental_2017,
+	title = {Incremental {2D} {Delaunay} triangulation core implementation on {FPGA} for surface reconstruction via high-level synthesis},
 	copyright = {All rights reserved},
-	school = {National Technical University of Athens},
-	author = {K. M. Deliparaschos},
-	month = apr,
-	year = {2010}
+	doi = {10.1109/ETFA.2017.8247736},
+	abstract = {This paper presents a 2D Delaunay triangulation core for surface reconstruction implemented on a Field Programmable Gate Array (FPGA) chip. The core implementation is derived using high-level synthesis from a C++ description of an incremental 2D Delaunay triangulation algorithm. This description was modified accordingly so that it can be embedded into a FPGA chip using hardware description language. Goal of this work is to increase the execution speed of the algorithm so as to allow for real-time operation. Towards this end, we performed an optimization process using high level synthesis directives which pipeline regions of the code in order to achieve delay optimization. We show preliminary results using standard benchmark models for surface reconstruction, which show the performance of our design.},
+	booktitle = {22nd {IEEE} {International} {Conference} on {Emerging} {Technologies} and {Factory} {Automation} ({ETFA 2017})},
+	author = {Kallis, C. and Deliparaschos, K. M. and Moustris, G. P. and Georgiou, A. and Charalambous, T.},
+	month = sep,
+	year = {2017},
+	keywords = {Algorithm design and analysis, computer graphics, Delaunay triangulation, Field Programmable Gate Array, Field Programmable Gate Array chip, field programmable gate arrays, Field programmable gate arrays, FPGA chip, Hardware, hardware description language, hardware description languages, Hardware design languages, high level synthesis, high level synthesis directives, high-level synthesis, incremental 2D Delaunay triangulation algorithm, incremental 2D Delaunay triangulation core implementation, mesh generation, pipeline processing, pipelining, RegisterTransfer-Level, surface reconstruction, Surface reconstruction, Surface treatment, Two dimensional displays},
+	pages = {1--4}
 }
 
-@thesis{deliparaschos_implementation_1999,
-    address = {Athens, Greece},
-    type = {Master's {Thesis}},
-    title = {Implementation and Testing of Variable-Time-Delays-Robust Telemanipulation through Master State Prediction},
-    copyright = {All rights reserved},
-    school = {De Montfort University and National Technical University of Athens},
-    author = {K. M. Deliparaschos},
-    month = sep,
-    year = {1999}
-}
-
-@thesis{deliparaschos_digit-serial_1998,
-    address = {Leicester, UK},
-    type = {Bachelor's {Thesis}},
-    title = {Digit-{Serial} {IIR} {Filter} {Implementation} on {FPGA}},
-    copyright = {All rights reserved},
-    school = {De Montfort University},
-    author = {K. M. Deliparaschos},
-    month = jun,
-    year = {1998},
-}
-
-@inproceedings{moustris_tracking_2009,
-    address = {Budapest, Hungary},
-    title = {Tracking control using the strip-wise affine transformation: {An} experimental {SoC} design},
-    copyright = {All rights reserved},
-    abstract = {This paper presents the analysis and application of the strip-wise affine map to the path following task for autonomous non-holonomic mobile robots. The mapping was implemented on a Spartan 3-1500 FPGA board with the use of VHDL and advanced EDA tools and was used in field experiments on a Khepera II differential robot. A fully parameterized DFLC previously published by the author has been tailored accordingly for the needs of this design implementation. Experiments were performed using a calibrated camera and a video tracking algorithm in order to extract the actual robot's path, compare it to the odometry solution and analyze the tracker's performance.},
-    booktitle = {European {Control} {Conf}. ({ECC} 2009)},
-    author = {Moustris, G. and K. M. Deliparaschos},
-    month = aug,
-    year = {2009}
-}
-
-@inproceedings{deliparaschos_design_2009,
-	address = {Patras, Greece},
-	title = {Design paradigms of intelligent control systems on a chip},
-	copyright = {All rights reserved},
-	booktitle = {Panhellenic {Conf}. on {Electronics} \& {Telecommunications} ({PACET} 2009)},
-	author = {K. M. Deliparaschos and Tzafestas, S. G.},
-	month = mar,
-	year = {2009}
-}
-
-@inproceedings{deliparaschos_autonomous_2007,
-  author={Deliparaschos, Kyriakos M. and Moustris, George P. and Tzafestas, Spyros G.},
-  booktitle={2007 European Control Conference (ECC)}, 
-  title={Autonomous {SoC} for fuzzy robot path tracking}, 
-  year={2007},
-  volume={},
-  number={},
-  pages={5471-5478},
-  abstract={In this paper a System-on-a-Chip (SoC) for the path following task of autonomous non-holonomic mobile robots is presented. The SoC consists of a digital fuzzy logic processor and a flow control program that runs under the Xilinx Microblaze™ soft processor core. The fuzzy processor implements a fuzzy path tracking algorithm introduced by the authors. The system was tied to an actual P3-DX8 robot and field experiments have been performed in order to assess the overall performance. Quantization problems and limitations imposed by the system configuration are also discussed.},
-  keywords={},
-  doi={10.23919/ECC.2007.7068806},
-  ISSN={},
-  month=Jul
+% ------- 2020 --------
+@article{deliparaschos_facilitating_2020,
+    author = {Deliparaschos, Kyriakos M. and Michail, Konstantinos and Zolotas, Argyrios C.},
+    title = {Facilitating Autonomous Systems with AI-Based Fault Tolerance and Computational Resource Economy},
+    journal = {Electronics},
+    volume = {9},
+    year = {2020},
+    number = {5},
+    article-number = {788},
+    url = {https://www.mdpi.com/2079-9292/9/5/788},
+    issn = {2079-9292},
+    abstract = {Proposed is the facilitation of fault-tolerant capability in autonomous systems with particular consideration of low computational complexity and system interface devices (sensor/actuator) performance. Traditionally model-based fault-tolerant/detection units for multiple sensor faults in automation require a bank of estimators, normally Kalman-based ones. An AI-based control framework enabling low computational power fault tolerance is presented. Contrary to the bank-of-estimators approach, the proposed framework exhibits a single unit for multiple actuator/sensor fault detection. The efficacy of the proposed scheme is shown via rigorous analysis for several sensor fault scenarios for an electro-magnetic suspension testbed.},
+    doi = {10.3390/electronics9050788}
 }
 
 @article{makridis_robust_2020,
@@ -335,62 +407,6 @@
 	pages = {1--1}
 }
 
-@inproceedings{makridis_dynamic_2017,
-	title = {Dynamic {CPU} resource provisioning in virtualized servers using maximum correntropy criterion {Kalman} filters},
-	copyright = {All rights reserved},
-	doi = {10.1109/ETFA.2017.8247677},
-	abstract = {Virtualized servers have been the key for the efficient deployment of cloud applications. As the application demand increases, it is important to dynamically adjust the CPU allocation of each component in order to save resources for other applications and keep performance high, e.g., the client mean response time (mRT) should be kept below a Quality of Service (QoS) target. In this work, a new form of Kalman filter, called the Maximum Correntropy Criterion Kalman Filter (MCC-KF), has been used in order to predict, and hence, adjust the CPU allocations of each component while the RUBiS auction site workload changes randomly as the number of clients varies. MCC-KF has shown high performance when the noise is non-Gaussian, as it is the case in the CPU usage. Numerical evaluations compare our designed framework with other current state-of-the-art using real-data via the RUBiS benchmark website deployed on a prototype Xen-virtualized cluster.},
-	booktitle = {22nd {IEEE} {International} {Conference} on {Emerging} {Technologies} and {Factory} {Automation} ({ETFA 2017})},
-	author = {Makridis, Evagoras and K. M. Deliparaschos and Kalyvianaki, Evangelia and Charalambous, Themistoklis},
-	month = sep,
-	year = {2017},
-	note = {ISSN: 1946-0759},
-	keywords = {client mean response time, cloud application efficient deployment, cloud computing, Cloud computing, CPU allocation, CPU usage, dynamic CPU resource provisioning, Dynamic scheduling, file servers, Kalman filter, Kalman filters, maximum correntropy criterion Kalman filter, maximum correntropy criterion Kalman filters, MCC-KF, mRT, nonGaussian noise, prototype Xen-virtualized cluster, QoS target, quality of service, quality of service target, resource allocation, Resource management, Resource provisioning, Robustness, RUBiS, RUBiS auction site workload, Servers, service target, Time factors, virtual machines, virtualisation, virtualized servers},
-	pages = {1--8}
-}
-
-@inproceedings{michail_sensor_2012,
-    title = {Sensor fault detection with low computational cost: {A} proposed neural network-based control scheme},
-    copyright = {All rights reserved},
-    shorttitle = {Sensor fault detection with low computational cost},
-    doi = {10.1109/ETFA.2012.6489628},
-    abstract = {The paper describes a low computational power method for detecting sensor faults. A typical fault detection unit for multiple sensor fault detection with modelbased approaches, requires a bank of estimators. The estimators can be either observer or artificial intelligence based. The proposed control scheme uses an artificial intelligence approach for the development of the fault detection unit abbreviated as `i-FD'. In contrast with the bank-estimators approach the proposed i-FD unit is using only one estimator for multiple sensor fault detection. The efficacy of the scheme is tested on an Electro-Magnetic Suspension (EMS) system and compared with a bank of Kalman estimators in simulation environment.},
-    booktitle = {Proceedings of 2012 {IEEE} 17th {International} {Conference} on {Emerging} {Technologies} {Factory} {Automation} ({ETFA} 2012)},
-    author = {Michail, Konstantinos and K. M. Deliparaschos},
-    month = sep,
-    year = {2012},
-    note = {ISSN: 1946-0759},
-    keywords = {artificial intelligence, artificial intelligence approach, artificial intelligence based estimator, bank-estimators approach, computational cost, electromagnetic devices, electromagnetic suspension system, EMS system, fault diagnosis, i-FD, Kalman estimator, Kalman filters, low computational power method, magnetic levitation, multiple sensor fault detection, neural network-based control, neurocontrollers, observer based estimator, simulation environment},
-    pages = {1--6}
-}
-
-@inproceedings{deliparaschos_use_2016,
-	title = {On the use of fuzzy logic controllers to comply with virtualized application demands in the cloud},
-	copyright = {All rights reserved},
-	doi = {10.1109/ECC.2016.7810362},
-	abstract = {As virtualization technologies enable real-time CPU allocation, it is important to build controllers that adjust the allocation in a timely fashion avoiding resource saturation and hence, dissatisfaction of the end users of services. In this work, adaptive neuro-fuzzy inference, trained on Kalman and H∞ filters, has been used to adjust the CPU allocations based on observations of past utilization. When evaluating the performance of the proposed controller it is demonstrated that it provides even better performance than the filters it is trained on. In addition, there are no assumptions on the noise characteristics and due to the fact that the neuro-fuzzy controller can, in general, capture non-linear level processes, our controller is more robust than linear model based approaches, such as the Kalman and the H∞ filters.},
-	booktitle = {{European} {Control} {Conference} ({ECC 2016})},
-	author = {K. M. Deliparaschos and Charalambous, Themistoklis and Kalyvianaki, Evangelia and Makarounas, Christos},
-	month = jun,
-	year = {2016},
-	keywords = {adaptive control, adaptive neuro-fuzzy inference, cloud, cloud computing, Computational modeling, control engineering computing, fuzzy control, Fuzzy logic, fuzzy logic controllers, Fuzzy sets, H∞ control, H∞ filter, Kalman filter, Kalman filters, microprocessor chips, neurocontrollers, nonlinear control systems, nonlinear level processes, real-time CPU allocation, resource allocation, Resource management, robust control, robust controller, Servers, Time factors, virtualized application demands},
-	pages = {649--654}
-}
-
-@article{deliparaschos_facilitating_2020,
-    author = {Deliparaschos, Kyriakos M. and Michail, Konstantinos and Zolotas, Argyrios C.},
-    title = {Facilitating Autonomous Systems with AI-Based Fault Tolerance and Computational Resource Economy},
-    journal = {Electronics},
-    volume = {9},
-    year = {2020},
-    number = {5},
-    article-number = {788},
-    url = {https://www.mdpi.com/2079-9292/9/5/788},
-    issn = {2079-9292},
-    abstract = {Proposed is the facilitation of fault-tolerant capability in autonomous systems with particular consideration of low computational complexity and system interface devices (sensor/actuator) performance. Traditionally model-based fault-tolerant/detection units for multiple sensor faults in automation require a bank of estimators, normally Kalman-based ones. An AI-based control framework enabling low computational power fault tolerance is presented. Contrary to the bank-of-estimators approach, the proposed framework exhibits a single unit for multiple actuator/sensor fault detection. The efficacy of the proposed scheme is shown via rigorous analysis for several sensor fault scenarios for an electro-magnetic suspension testbed.},
-    doi = {10.3390/electronics9050788}
-}
-
 @inproceedings{deliparaschos_preliminary_2020,
 	title = {A {Preliminary} {Investigation} of an {Autonomous} {Vehicle} {Validation} {Infrastructure} for {Smart} {Cities}},
 	doi = {10.1109/MSM49833.2020.9201644},
@@ -403,6 +419,7 @@
 	pages = {1--5}
 }
 
+% ------- 2022 --------
 @inproceedings{xatziloizou_indoors_2022,
   author={Hadjiloizou, Loizos and Deliparaschos, Kyriakos M. and Makridis, Evagoras and Charalambous, Themistoklis},
   booktitle={2022 IEEE Globecom Workshops (GC Wkshps)}, 
@@ -418,6 +435,7 @@
   month=Dec
 }
 
+% ------- 2023 --------
 @inproceedings{xatziloizou_maximum_2023,
   author={Hadjiloizou, Loizos and Makridis, Evagoras and Charalambous, Themistoklis and Deliparaschos, Kyriakos M.},
   booktitle={2023 31st Mediterranean Conference on Control and Automation (MED 2023)}, 
@@ -433,6 +451,7 @@
   month=Jun
 }
 
+% ------- 2024 --------
 @article{elshakhs_comprehensive_2024,
 	title = {A {Comprehensive} {Survey} on {Delaunay} {Triangulation}: {Applications}, {Algorithms}, and {Implementations} {Over} {CPUs}, {GPUs}, and {FPGAs}},
 	volume = {12},
@@ -468,3 +487,26 @@
   keywords = {},
   month = Jun,
 }
+
+% ------- 2025 --------
+@article{deliparaschos_fpga-accelerated_2025,
+  author={Deliparaschos, Kyriakos M. and Oliva, Gabriele},
+  journal={IEEE Access}, 
+  title={FPGA-Accelerated ϵ-Greedy Ant Colony Optimisation for Maritime Bearings-Only Nonlinear Target Motion Analysis}, 
+  year={2025},
+  volume={13},
+  number={},
+  pages={190027-190039},
+  keywords={Field programmable gate arrays;Optimization;Maximum likelihood estimation;System-on-chip;Real-time systems;Noise measurement;Motion analysis;Marine vehicles;Trajectory;Process control;SoC-FPGA;high-level synthesis (HLS);maritime security;estimation;bearings-only target motion analysis (BOTMA);ant colony optimisation;ϵ-greedy;maximum likelihood estimation;real-time embedded systems},
+  doi={10.1109/ACCESS.2025.3626686}}
+
+@inproceedings{deliparaschos_fpga-based_2025,
+  author={Deliparaschos, Kyriakos M. and Setola, Roberto and Oliva, Gabriele},
+  booktitle={2025 33rd Mediterranean Conference on Control and Automation (MED)}, 
+  title={An FPGA-Based SoC Accelerator for Ant Colony Optimisation in Bearings-Only Target Motion Analysis}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={132-137},
+  keywords={Maximum likelihood estimation;Power demand;Target tracking;Signal processing algorithms;Software;Real-time systems;Resource management;Motion analysis;Optimization;Field programmable gate arrays;SoC FPGA;High-Level Synthesis (HLS);Target Motion Analysis;Ant Colony optimisation},
+  doi={10.1109/MED64031.2025.11073252}}
